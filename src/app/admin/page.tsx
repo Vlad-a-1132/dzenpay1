@@ -39,6 +39,7 @@ interface Wallet {
   id: string
   address: string
   network: string
+  type: string
   status: string
   userId: string
   balance: number
